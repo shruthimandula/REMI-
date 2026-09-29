@@ -1,0 +1,38 @@
+{
+  "name": "remi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remi — Support that remembers. AI Customer Support Agent with four-layer memory. Built by Team Zenith at HackWithHyderabad3.0.",
+  "author": "Team Zenith",
+  "contributors": [
+    "Rupa Hasini",
+    "Pravallika",
+    "Shruthi",
+    "Madhurima",
+    "Tasneem"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --test src/lib/__tests__/memory-safety.test.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.12.2",
+    "next": "16.3.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
